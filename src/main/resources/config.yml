@@ -1,0 +1,335 @@
+
+# This here is for all the configuration
+# Of all the weapons.
+# You can enable or disable anyone of the ones
+# You would like.
+# The Custom Model numbers can be used
+# to create custom texture packs for your server
+# you can make my items look like whatever you want.
+# Just create the texture, and set the data model number
+# to be of the weapon you choose.
+
+
+# ---------------------------------------------
+# ------------ Global Settings ----------------
+# ---------------------------------------------
+
+# Creator roles do not give anybody permissions
+# The creator roles are to show who the creators
+# of the plugin are, If you would like display us
+# When we join your server, set it to True.
+# All other players names will be set to [Human] + Name
+
+Recipes:
+  TNT:
+    RemoveDefaultRecipe: true
+  EndCrystal:
+    RemoveDefaultRecipe: true
+  EnderChest:
+    RemoveDefaultRecipe: true
+
+
+Players:
+  AllowCreatorRoles: true
+  HaveAllRecipes: false
+
+
+
+
+# ---------------------------------------------
+# ---------------------------------------------
+# ------------------- Weapons -----------------
+# ---------------------------------------------
+# ---------------------------------------------
+
+Materials:
+  Enabled: true
+# Cook time is in secs
+  InfusedNetherite: # Custom Model = 900
+    CookTime: 16050
+
+  InfusedEmerald: # Custom Model = 901
+    CookTime: 15050
+
+  InfusedDiamond: # Custom Model = 902
+    CookTime: 12050
+
+  InfusedIron: # Custom Model = 903
+    CookTime: 9750
+
+  InfusedGold: # Custom Model = 904
+    CookTime: 8450
+
+UpgradeSlates:
+  Enabled: true
+
+
+  UpgradeSlate: # Custom Model = 1100
+    UpgradeValue: 10
+    Lore:
+      - "This UpgradeSlate can be used to upgrade"
+      - "your armor, increase your max health, "
+      - "and increase your damage. "
+      - "Beware of the limit"
+
+
+
+
+Armor:
+  Enabled: true
+  MaxAdditionalHealth: 50
+  MaxAdditionalArmor: 25.5
+  MaxAdditionalDamage: 10.75
+
+
+  InfusedNetherite:
+
+    Helmet: # Custom Model = 1000
+      HealthBoost: 16
+      Armor: 16
+      ArmorToughness: 16
+      KnockbackResistance: 1.8
+      Speed: 0.019
+      AttackDamage: 1.7
+      AttackSpeed: 0.15
+
+    Chestplate: # Custom Model = 1001
+      HealthBoost: 16
+      Armor: 16
+      ArmorToughness: 16
+      KnockbackResistance: 1.8
+      Speed: 0.019
+      AttackDamage: 1.7
+      AttackSpeed: 0.15
+
+    Leggings: # Custom Model = 1002
+      HealthBoost: 16
+      Armor: 16
+      ArmorToughness: 16
+      KnockbackResistance: 1.8
+      Speed: 0.019
+      AttackDamage: 1.7
+      AttackSpeed: 0.15
+
+    Boots: # Custom Model = 1003
+      HealthBoost: 16
+      Armor: 16
+      ArmorToughness: 16
+      KnockbackResistance: 1.8
+      Speed: 0.019
+      AttackDamage: 1.7
+      AttackSpeed: 0.15
+
+  InfusedEmerald:
+
+    Helmet: # Custom Model = 1004
+      HealthBoost: 12
+      Armor: 12
+      ArmorToughness: 12
+      KnockbackResistance: 1.4
+      Speed: 0.015
+      AttackDamage: 1.35
+      AttackSpeed: 0.75
+
+    Chestplate: # Custom Model = 1005
+      HealthBoost: 12
+      Armor: 12
+      ArmorToughness: 12
+      KnockbackResistance: 1.4
+      Speed: 0.015
+      AttackDamage: 1.35
+      AttackSpeed: 0.75
+
+    Leggings: # Custom Model = 1006
+      HealthBoost: 12
+      Armor: 12
+      ArmorToughness: 12
+      KnockbackResistance: 1.4
+      Speed: 0.015
+      AttackDamage: 1.35
+      AttackSpeed: 0.75
+
+    Boots: # Custom Model = 1007
+      HealthBoost: 12
+      Armor: 12
+      ArmorToughness: 12
+      KnockbackResistance: 1.4
+      Speed: 0.015
+      AttackDamage: 1.35
+      AttackSpeed: 0.75
+
+  InfusedDiamond:
+
+    Helmet: # Custom Model = 1008
+      HealthBoost: 8
+      Armor: 8
+      ArmorToughness: 8
+      KnockbackResistance: 1.2
+      Speed: 0.01
+      AttackDamage: 1.2
+      AttackSpeed: 0.5
+
+    Chestplate: # Custom Model = 1009
+      HealthBoost: 8
+      Armor: 8
+      ArmorToughness: 8
+      KnockbackResistance: 1.2
+      Speed: 0.01
+      AttackDamage: 1.2
+      AttackSpeed: 0.5
+
+    Leggings: # Custom Model = 1010
+      HealthBoost: 8
+      Armor: 8
+      ArmorToughness: 8
+      KnockbackResistance: 1.2
+      Speed: 0.01
+      AttackDamage: 1.2
+      AttackSpeed: 0.5
+
+    Boots: # Custom Model = 1011
+      HealthBoost: 8
+      Armor: 8
+      ArmorToughness: 8
+      KnockbackResistance: 1.2
+      Speed: 0.01
+      AttackDamage: 1.2
+      AttackSpeed: 0.5
+
+  InfusedIron:
+
+    Helmet: # Custom Model = 1012
+      HealthBoost: 4
+      Armor: 4
+      ArmorToughness: 4
+      KnockbackResistance: 0.8
+      Speed: 0.008
+      AttackDamage: 1.1
+      AttackSpeed: 0.4
+
+    Chestplate: # Custom Model = 1013
+      HealthBoost: 4
+      Armor: 4
+      ArmorToughness: 4
+      KnockbackResistance: 0.8
+      Speed: 0.008
+      AttackDamage: 1.1
+      AttackSpeed: 0.4
+
+    Leggings: # Custom Model = 1014
+      HealthBoost: 4
+      Armor: 4
+      ArmorToughness: 4
+      KnockbackResistance: 0.8
+      Speed: 0.008
+      AttackDamage: 1.1
+      AttackSpeed: 0.4
+
+    Boots: # Custom Model = 1015
+      HealthBoost: 4
+      Armor: 4
+      ArmorToughness: 4
+      KnockbackResistance: 0.8
+      Speed: 0.008
+      AttackDamage: 1.1
+      AttackSpeed: 0.4
+
+  InfusedGold:
+
+    Helmet: # Custom Model = 1016
+      HealthBoost: 2
+      Armor: 2
+      ArmorToughness: 2
+      KnockbackResistance: 0.4
+      Speed: 0.004
+      AttackDamage: 1.05
+      AttackSpeed: 0.3
+
+    Chestplate: # Custom Model = 1017
+      HealthBoost: 2
+      Armor: 2
+      ArmorToughness: 2
+      KnockbackResistance: 0.4
+      Speed: 0.004
+      AttackDamage: 1.05
+      AttackSpeed: 0.3
+
+    Leggings: # Custom Model = 1018
+      HealthBoost: 2
+      Armor: 2
+      ArmorToughness: 2
+      KnockbackResistance: 0.4
+      Speed: 0.004
+      AttackDamage: 1.05
+      AttackSpeed: 0.3
+
+    Boots: # Custom Model = 1019
+      HealthBoost: 2
+      Armor: 2
+      ArmorToughness: 2
+      KnockbackResistance: 0.4
+      Speed: 0.004
+      AttackDamage: 1.05
+      AttackSpeed: 0.3
+
+
+
+Swords:
+  Knife: # Custom Model = 2
+    Enabled: true
+    Unbreakable: false
+    Damage: 7
+    giveSwiftness: true
+    Lore:
+      - ' A knife That is very small'
+      - ' can be used to traverse very'
+      - ' quickly, Sneak attack your'
+      - ' enemies with this knife'
+
+  EnderMiteSword: # Custom Model = 3
+    Enabled: true
+    Unbreakable: false
+    Damage: 9
+    numberofEndermites: 100
+    cooldown: 30 # in seconds
+    radius: 15
+    Lore:
+      - 'The Endermite Sword'
+      - 'can summon endermites'
+      - 'to attack your enemies'
+
+
+  BeeWithMe: # Custom Model = 4
+    Enabled: true
+    Unbreakable: false
+    Damage: 10
+    numberofBeesPerHit: 4
+    Lore:
+        - 'The Bee With Me Sword'
+        - 'can summon bees'
+        - 'to attack your enemies'
+
+
+  Backer: # Custom Model = 5
+    Enabled: true
+    Unbreakable: false
+    Damage: 6
+    cooldown: 30 # in seconds
+    Lore:
+        - 'The Backer Sword'
+        - 'when you right click'
+        - 'it will teleport you'
+        - ' few blocks behind you'
+
+Bows:
+  HomingArrowBow: # Custom Model = 1
+    Enabled: true
+    Unbreakable: false
+    HomingRadius: 15
+    Lore:
+      - 'A bow that is used by the '
+      - 'Lazy People'
+      - 'It is very powerful'
+      - 'Arrows will home in on'
+      - 'the closest entity.'
+      - 'Homing Bow' # DO NOT CHANGE

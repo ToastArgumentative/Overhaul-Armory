@@ -1,0 +1,5 @@
+name: OverhaulArmory
+version: '${project.version}'
+main: toast.pine.overhaularmory.OverhaulArmory
+api-version: 1.19
+author: Toast, Juicy
